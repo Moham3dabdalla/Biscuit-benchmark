@@ -3,9 +3,11 @@ const fastify = require('fastify')();
 const Koa = require('koa');
 const Biscuit = require('biscuitsjar');
 
+
 // إعداد Biscuits
 const appBiscuits = new Biscuit();
 appBiscuits.get('/', (req, res) => res.json({ message: 'Hello from Biscuits' }));
+Biscuit.defaults(appBiscuits)
 
 appBiscuits.listen(3004, () => console.log('Biscuits running on port 3004'));
 
