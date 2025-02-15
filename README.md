@@ -1,5 +1,14 @@
-# Biscuit-benchmark
-# Find the benchmark test in owr GitHub repository Download it or git it in your machine and try your self
+# Biscuits benchmark
+## Find the benchmark test in owr GitHub repository Download it or git it in your machine and try your self
+### mark sure you install all dep
+```
+npm install biscuitsjar
+npm install express 
+npm install koa
+npm install fastify
+
+npm install autocannon
+```
 ```
 node server
 node benchmark
