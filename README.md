@@ -1,6 +1,38 @@
-# Biscuits benchmark
-## Find the benchmark test in owr GitHub repository Download it or git it in your machine and try your self
+#Biscuits Benchmark
+| الإطار       | المحاولة | عدد الطلبات | معدل الاستجابة (ms) | معدل الإنتاجية (req/s) | الأخطاء |
+|--------------|-----------|--------------|----------------------|-------------------------|---------|
+| **Express**  | الأولى    | 2585         | 386.16               | 258.5                  | 0       |
+|              | الثانية   | 3695         | 269.4                | 369.5                  | 0       |
+| **Fastify**  | الأولى    | 6287         | 159.8                | 628.71                 | 0       |
+|              | الثانية   | 10854        | 92.9                 | 1085.41                | 0       |
+| **Koa**      | الأولى    | 7328         | 136.88               | 732.8                  | 0       |
+|              | الثانية   | 8345         | 119.81               | 834.5                  | 0       |
+| **Biscuit**  | الأولى    | 8340         | 120.23               | 834                    | 0       |
+|              | الثانية   | 11033        | 99.79                | 1003                   | 0       |
+
+# English
+| Framework   | Attempt   | Total Requests | Avg Latency (ms) | Avg Throughput (req/s) | Errors |
+|-------------|-----------|----------------|------------------|------------------------|--------|
+| **Express** | First     | 2585           | 386.16           | 258.5                 | 0      |
+|             | Second    | 3695           | 269.4            | 369.5                 | 0      |
+| **Fastify** | First     | 6287           | 159.8            | 628.71                | 0      |
+|             | Second    | 10854          | 92.9             | 1085.41               | 0      |
+| **Koa**     | First     | 7328           | 136.88           | 732.8                 | 0      |
+|             | Second    | 8345           | 119.81           | 834.5                 | 0      |
+| **Biscuit** | First     | 8340           | 120.23           | 834                   | 0      |
+|             | Second    | 11033          | 99.79            | 1003                  | 0      |
+
+# Find the benchmark test in own GitHub repository Download it or git it in your machine and try your self
+
+## Yes, Biscuit has provided good performance in some cases, even outperforming Fastify on occasion. However, Fastify still maintains its performance advantage in all cases.
+
+## Biscuit was built primarily to provide a fast and lightweight alternative with ease of use. You can literally learn Biscuit in 10 minutes if you have prior experience with Express.
+
+
 ### mark sure you install all dep
+
+[Biscuits benchmark repository](https://github.com/Moham3dabdalla/Biscuit-benchmark)
+
 ```
 npm install biscuitsjar
 npm install express 
