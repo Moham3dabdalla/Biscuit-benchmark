@@ -9,6 +9,7 @@ npm install fastify
 
 npm install autocannon
 ```
+## Run the test
 ```
 node server
 node benchmark
