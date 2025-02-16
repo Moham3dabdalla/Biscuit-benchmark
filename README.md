@@ -1,4 +1,17 @@
-#Biscuits Benchmark
+# Benchmark
+As we say we believe in try not to see 
+Download the Code or use git and run it into your own machine to see by your self we have but the code in way to be easy to run it and change it you can control it the main key's are
+  - duration = 10 it's been set to 10
+  - connections = 100
+  - rate = 10
+  - you can change that to see your self 
+
+"These results are obtained after optimizing, so if you use Biscuit without the default app configuration, the results will likely be different, probably lower than this. Additionally, results may vary from machine to machine, so you may see different results."
+
+```
+Biscuit.defaults(app)
+
+```
 | الإطار       | المحاولة | عدد الطلبات | معدل الاستجابة (ms) | معدل الإنتاجية (req/s) | الأخطاء |
 |--------------|-----------|--------------|----------------------|-------------------------|---------|
 | **Express**  | الأولى    | 2585         | 386.16               | 258.5                  | 0       |
@@ -24,9 +37,9 @@
 
 # Find the benchmark test in own GitHub repository Download it or git it in your machine and try your self
 
-## Yes, Biscuit has provided good performance in some cases, even outperforming Fastify on occasion. However, Fastify still maintains its performance advantage in all cases.
+### Yes, Biscuit has provided good performance in some cases, even outperforming Fastify on occasion. However, Fastify still maintains its performance advantage in all cases.
 
-## Biscuit was built primarily to provide a fast and lightweight alternative with ease of use. You can literally learn Biscuit in 10 minutes if you have prior experience with Express.
+### Biscuit was built primarily to provide a fast and lightweight alternative with ease of use. You can literally learn Biscuit in 10 minutes if you have prior experience with Express.
 
 
 ### mark sure you install all dep
@@ -80,7 +93,7 @@ appKoa.listen(3003, () => console.log('Koa running on port 3003'));
 ```
 ## benchmark code
 you can add different test to try 
-control the
+control the test
 ```javascript
 const autocannon = require('autocannon');
 
@@ -120,10 +133,3 @@ async function runBenchmark(server) {
 })();
 
 ```
-# License
-
-Biscuit is released under the MIT License.
-
-
-
----
